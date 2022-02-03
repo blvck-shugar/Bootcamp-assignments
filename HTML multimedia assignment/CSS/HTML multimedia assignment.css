@@ -1,0 +1,48 @@
+.grid-container{
+    display: grid;
+    height: 1000px;
+    width: 900px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+
+    grid-gap: 10px 10px;
+    margin: 50px 50px 50px 250px;
+}
+.photo>img{
+    object-fit: cover;
+    width: 100%;
+
+}
+
+body{
+    background: black;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button:hover{
+    padding: 5px;
+    color: darkgoldenrod;
+    rotate: 15deg;
+
+}
+.image{
+    border: 5px solid;
+    border-color: silver;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#searchbar{
+    color: silver;
+    padding: 10px solid;
+}
+
+.extra{
+    font-size: 25px;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
